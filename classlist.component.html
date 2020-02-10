@@ -1,0 +1,55 @@
+
+
+
+<app-main-nav><div class="entire">
+  <!-- <div>
+  <app-main-nav>
+
+  </app-main-nav>
+</div>  -->
+  
+ <!--  
+<div class="menu">
+    <a href="#" class="menu-link">
+      <span class="hamburger-icon">
+        <span class="hamburger-bar hamburger-bar-1"></span>
+        <span class="hamburger-bar hamburger-bar-2"></span>
+        <span class="hamburger-bar hamburger-bar-3"></span>
+      </span>
+    </a>
+</div>
+-->
+
+
+<!-- <div class="calender"*ngFor="let date of dates"> -->
+  <!--  
+<form action="#">
+    Date:
+    <input type="date" name="date">
+    <input type="submit">
+</form>
+</div>-->
+
+
+<div>
+<app-dateselector (dateSelected)="onDateSelected($event)"></app-dateselector>
+</div>
+
+<hr>
+<div class="cards-container">
+<div class="card" *ngFor="let class of classes">
+  <div class="details">
+    <h2>{{class.time}} </h2>
+    <p class="sem">Subject:  {{class.subjectName}}</p>
+    <!-- <p class="sem">SubID:  {{class.classSubjectID}}</p> -->
+    <p class="sem">Room no:  {{class.roomNumber}},  {{class.className}}</p>
+  </div>
+  <div class="buttons">
+    <button (click)='onClick(class)'>ATTENDANCE</button>
+  </div>
+</div>
+</div>
+
+
+</div>
+</app-main-nav>

@@ -1,0 +1,35 @@
+button{
+    outline: none;
+    width: -webkit-fill-available;
+    /* padding: 15px 32px; */
+    padding: 10%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    
+    
+    background-color: #ffffff;
+    margin: 0.3rem;
+    
+}
+.con{
+    color: white;
+    background-color: rgb(95, 132, 235);
+    /* margin: 0px 0px 0px 0px; */
+    /* margin-left: 0px ; */
+    
+}
+.mat-dialog-actions .mat-button-base+.mat-button-base {
+    margin-left: 4.8px;
+}
+p{
+    text-align: center;
+}
+.mat-dialog-actions{
+    text-align: center;
+    /* padding-left: 15%; */
+    padding: 10%;
+}
+button :focus{
+    background-color: blue;
+}

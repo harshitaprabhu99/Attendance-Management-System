@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>upload image</h1>
+<div>
+
+        <input type="file" #image accept="image/*" (change)="handelFileInput($event.target.files)">
+</div>
+<div >
+    <mat-dialog-actions>
+        <button class="uploaCancel"  mat-button (click)="Close_dialog()">CANCEL</button>
+    </mat-dialog-actions>
+    <mat-dialog-actions>
+        <button  mat-button class="upload" (click)="onClick()">UPLOAD</button>
+    </mat-dialog-actions>
+</div>

@@ -1,0 +1,13 @@
+<div class="menu-overlay">
+    <div class="picture">
+        <img class="picture-container" [src]="imageUrl" alt="Profile picture">
+        <span>{{name}}</span>
+    </div>
+    <div class="overlay-menu">
+
+        <ul class="one">
+            <li><a routerLink="/profile" class="nav-links" (click)="profileInfo()">PROFILE</a></li>
+            <li><a routerLink="/login" (click)="onClick()" class="nav-links">LOG OUT</a></li>
+        </ul>
+    </div>
+</div>

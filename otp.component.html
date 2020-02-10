@@ -1,0 +1,26 @@
+<body class="align">
+    <div class="head">
+        <h1>Reset Password</h1>
+    </div>
+    <div *ngIf="this.otp_conflict" class="invalid-cred">
+        <p> OTP DOES NOT MATCH </p>
+    </div>
+
+    <div class="grid">
+
+        <form class="form login">
+            <div class="form__field">
+                <input [(ngModel)]='otp' id="otp" type="text" name="otp" class="form__input" placeholder="OTP sent to your E-mail" required>
+            </div>
+            <div class="form__field">
+                <input [(ngModel)]='password' id="passwd" type="password" name="passwd" class="form__input" placeholder="New Password" required>
+            </div>
+            <div class="buttons">
+                <div class="form__field" id="container2">
+                    <input (click)='onClick()' type="submit" value="Reset Password" id="submit">
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>

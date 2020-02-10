@@ -1,0 +1,18 @@
+<div class="container">
+    
+    <div class="datepicker">
+        <div class="picker-section">
+             <input class="picker-input"  matInput [matDatepicker]="picker" placeholder="Choose a date"  [value]="startDate"  (dateInput)="scrollInto($event)"  >
+             
+           
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker startView="month" [startAt]="startDate" (selectedChanged)="onDate($event)"></mat-datepicker>
+        </div> 
+        <div class="datelist">
+            <div class="date-select" *ngFor="let val of days" [id]="val.getDate()" [class.background_blue]="selectedId == val.getDate()" (click)="onDateClicked(val.getDate(),val)">
+                <div class="small">{{ weeks[val.getDay()] }}</div>
+                <div class="large margin-top">{{ val.getDate() }}</div>
+            </div>
+        </div>
+    </div>    
+</div>

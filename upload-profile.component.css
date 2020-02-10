@@ -1,0 +1,13 @@
+
+.uploaCancel{
+    width: -webkit-fill-available;
+    text-align: center;
+    background-color: rgb(194, 194, 194);
+    display: inline-block;
+}
+.upload{
+    width: -webkit-fill-available;
+    background-color: rgb(194, 194, 194);
+    display: inline-block;
+    
+}

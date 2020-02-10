@@ -1,0 +1,126 @@
+#container{
+    width: 100%;
+    height: 100%;
+    /* overflow-y: scroll; */
+    overflow: scroll;
+    /* padding: 2px; */
+    text-align: center; 
+
+}
+.name{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline-color: rgb(13, 158, 255);
+}
+.email{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline-color: rgb(13, 158, 255);
+}
+.phno{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline-color: rgb(13, 158, 255);
+}
+.gender{
+    width: 80%;
+    color: black;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline-color: rgb(13, 158, 255);
+}
+.city{
+    width: 80%;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline-color: rgb(13, 158, 255);
+}
+.save{
+    width: 80%;
+    background-color: rgba(42, 141, 235, 0.911);
+    color: white;
+    padding: 14px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline-color: rgb(13, 158, 255);
+}
+.edit_picture{
+    width: 40%;
+    padding: 1%;
+    margin: 0 ;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(247, 249, 252);
+    outline-color: rgb(13, 158, 255);
+}
+
+.img_container{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#profile_img{
+    padding-bottom: 8%;
+}
+#Name{
+    padding-top: 2%;
+}
+#Email{
+    padding-top: 2%;
+}
+#PhoneNo{
+    padding-top: 2%;
+}
+#Gender{
+    padding-top: 2%;
+}
+#City{
+    padding-top: 2%;
+}
+#Save{
+    padding-top: 2%;
+}
+#form{
+    padding-top: 2%;
+}
+.editPicture{
+    padding-top: 5%;
+}
+.imageContainer{
+    padding-top: 8%;
+}
+option[value=""][disabled] {
+    display: none;
+}
+.invalid-feedback{
+    color: red;
+    font-size: 10px;
+    text-align: center;
+
+}

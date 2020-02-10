@@ -1,0 +1,68 @@
+.container .datepicker .datelist {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.date-select {
+    padding: 1rem 1.75rem;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 0.33rem;
+    border-radius:6px;
+    color:#A6A6A6;
+
+}
+
+.date-select .small {
+    font-size: medium;
+}
+
+.date-select .large {
+    font-size: x-large;
+}
+
+.date-select .margin-top {
+    margin-top: 0.5rem;
+    text-align:center;
+}
+
+.datepicker .picker-section {
+    margin-bottom: 1rem;  
+    color: rgb(148, 203, 235);
+}
+.datepicker .picker-section .picker-input {
+    background-color: transparent;
+    border:none;
+    font-size: large;
+    color:rgb(148, 203, 235);
+}
+    .datepicker[_ngcontent-ifn-c3] .picker-section[_ngcontent-ifn-c3] {
+        margin-bottom: 1rem;
+        color: rgb(148, 203, 235);
+        text-align: center;
+    }
+    
+
+
+.picker-input{
+    pointer-events: none;
+    padding:0px;
+    text-align: right;
+}
+
+mat-datepicker-toggle{
+    padding: 0;
+    min-width: 0;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(148, 203, 235);
+}
+
+.background_blue{
+    background-color: #4AB3EF;
+    color: white;
+}
+

@@ -1,0 +1,127 @@
+.container{
+    height:100%;
+    width: 100%;
+text-align: center;
+}
+
+.profile{
+
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.picture{
+    width: 32%;
+    height: 30px;
+    /* padding: 12px 20px; */
+    margin: 8px 0;
+    border:rgb(10, 8, 8);
+    border-radius: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: rgb(244, 246, 250);
+    outline-color:#4bbeeb ; 
+
+}
+.name{
+    
+     width: 70%;
+     height: 40px;
+     border-radius: 5px;
+     display: inline-block;
+     border: 1px solid #ccc;
+     font-size: 13px;
+     box-sizing: border-box;
+     outline-color:#4bbeeb ; 
+
+}
+.email{
+    height: 40px;
+    width: 70%;
+    font-size: 13px;
+    padding: 15px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: inline-block;
+     border: 1px solid #ccc;
+     outline-color:#4bbeeb ;
+
+}
+.pass{
+     
+     height: 40px;
+     width: 70%;
+     border-radius: 5px;
+     font-size: 13px;
+     padding: 15px 5px;
+     box-sizing: border-box;
+     display: inline-block;
+     border: 1px solid #ccc;
+     outline-color:#4bbeeb ;
+    
+
+}
+.number{
+    height: 40px;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 15px 5px;
+    box-sizing: border-box;
+    display: inline-block;
+     border: 1px solid #ccc;
+     outline-color:#4bbeeb ;
+   
+}
+.gender{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    outline-color:#4bbeeb ;
+
+}
+.city{
+     height: 40px;
+     width: 70%;
+     border-radius: 5px;
+     font-size: 13px;
+     padding: 1px 5px;
+     box-sizing: border-box; 
+     border: 1px solid #ccc;
+     outline-color:#4bbeeb ;
+     
+
+}
+.column{
+    width: 70%;
+    height: 40px;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: rgb(95,132,235);
+    opacity: 0.7;
+    border-radius: 5px;
+    font-size: 15px;
+    color:#fff;
+}
+.column:hover{
+    background: #1a4ae9;
+    opacity: 0.7;
+
+}
+option[value=""][disabled] {
+    display: none;
+    /* font: #ccc outline; */
+  }
+   
+.invalid-feedback{
+    color: red;
+    font-size: 10px;
+    text-align: center;
+
+}

@@ -1,0 +1,31 @@
+
+<div class="main_container">
+
+
+    <div class="container">
+        <br>
+        <div class="main">
+        <div class="heading">
+            <h3>ATTENDANCE</h3>
+            
+        </div>
+        <div
+         class="subheading">
+            <h4>Select those who are absent</h4>
+        </div>
+        </div>
+    </div>
+        <div class='list'>
+        <div class="fixed" *ngFor="let student of student_list;let i=index;" class="student">
+           
+            <input type="button" id="button" class="btn first" value="{{i+1}}.       {{student.name}}"
+                (click)="setColor(i)" [class.changecolor]="!student.isPresent" data-count="1">
+        </div>
+    </div>
+   
+    <div >
+    <button class="Done" mat-raised-button (click)="confirmList()">Done</button>
+  
+    </div>
+
+</div>
